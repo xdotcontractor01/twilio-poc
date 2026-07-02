@@ -1,4 +1,5 @@
 import type { DocumentItem } from '../services/api';
+import { getStorageUrl } from '../services/api';
 
 interface Props {
   documents: DocumentItem[];
@@ -8,14 +9,6 @@ interface Props {
 function formatTime(ts: string | null): string {
   if (!ts) return '';
   return new Date(ts).toLocaleString();
-}
-
-function getDocUrl(filePath: string): string {
-  const parts = filePath.split('/storage/');
-  if (parts.length > 1) {
-    return `/storage/${parts[1]}`;
-  }
-  return filePath;
 }
 
 export default function DocumentsPanel({ documents, loading }: Props) {
@@ -31,7 +24,7 @@ export default function DocumentsPanel({ documents, loading }: Props) {
           {documents.map((doc) => (
             <div key={doc.id} className="flex items-center justify-between border-b border-gray-100 pb-2 last:border-0">
               <a
-                href={getDocUrl(doc.file_path)}
+                href={getStorageUrl(doc.file_path)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-blue-600 hover:underline truncate"

@@ -1,4 +1,5 @@
 import type { ImageItem } from '../services/api';
+import { getStorageUrl } from '../services/api';
 
 interface Props {
   images: ImageItem[];
@@ -8,14 +9,6 @@ interface Props {
 function formatTime(ts: string | null): string {
   if (!ts) return '';
   return new Date(ts).toLocaleString();
-}
-
-function getImageUrl(filePath: string): string {
-  const parts = filePath.split('/storage/');
-  if (parts.length > 1) {
-    return `/storage/${parts[1]}`;
-  }
-  return filePath;
 }
 
 export default function ImagesPanel({ images, loading }: Props) {
@@ -31,14 +24,14 @@ export default function ImagesPanel({ images, loading }: Props) {
           {images.map((img) => (
             <a
               key={img.id}
-              href={getImageUrl(img.file_path)}
+              href={getStorageUrl(img.file_path)}
               target="_blank"
               rel="noopener noreferrer"
               className="block"
               title={`${img.sender} — ${formatTime(img.created_at)}`}
             >
               <img
-                src={getImageUrl(img.file_path)}
+                src={getStorageUrl(img.file_path)}
                 alt={img.filename}
                 className="w-full h-20 object-cover rounded border border-gray-200 hover:border-blue-400"
               />

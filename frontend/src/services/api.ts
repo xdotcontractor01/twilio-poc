@@ -1,4 +1,25 @@
-const BASE_URL = '/api';
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
+
+function apiUrl(path: string): string {
+  return `${API_BASE_URL}/api${path}`;
+}
+
+export function getStorageUrl(filePath: string): string {
+  if (filePath.startsWith('http://') || filePath.startsWith('https://')) {
+    return filePath;
+  }
+
+  const parts = filePath.split('/storage/');
+  if (parts.length > 1) {
+    return `${API_BASE_URL}/storage/${parts[1]}`;
+  }
+
+  if (filePath.startsWith('/storage/')) {
+    return `${API_BASE_URL}${filePath}`;
+  }
+
+  return filePath;
+}
 
 export interface Project {
   id: number;
@@ -48,25 +69,25 @@ async function fetchJson<T>(url: string): Promise<T> {
 }
 
 export function getProjects(): Promise<Project[]> {
-  return fetchJson(`${BASE_URL}/projects`);
+  return fetchJson(apiUrl('/projects'));
 }
 
 export function getProject(code: string): Promise<Project> {
-  return fetchJson(`${BASE_URL}/projects/${code}`);
+  return fetchJson(apiUrl(`/projects/${code}`));
 }
 
 export function getProjectNotes(code: string): Promise<NoteItem[]> {
-  return fetchJson(`${BASE_URL}/projects/${code}/notes`);
+  return fetchJson(apiUrl(`/projects/${code}/notes`));
 }
 
 export function getProjectImages(code: string): Promise<ImageItem[]> {
-  return fetchJson(`${BASE_URL}/projects/${code}/images`);
+  return fetchJson(apiUrl(`/projects/${code}/images`));
 }
 
 export function getProjectDocuments(code: string): Promise<DocumentItem[]> {
-  return fetchJson(`${BASE_URL}/projects/${code}/documents`);
+  return fetchJson(apiUrl(`/projects/${code}/documents`));
 }
 
 export function getProjectTeam(code: string): Promise<TeamMember[]> {
-  return fetchJson(`${BASE_URL}/projects/${code}/team`);
+  return fetchJson(apiUrl(`/projects/${code}/team`));
 }
