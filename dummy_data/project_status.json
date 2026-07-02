@@ -1,0 +1,44 @@
+[
+  {
+    "project_code": "P101",
+    "photos_uploaded": 47,
+    "documents_uploaded": 18,
+    "notes_added": 32,
+    "last_update": "2026-07-01T14:22:00Z"
+  },
+  {
+    "project_code": "P102",
+    "photos_uploaded": 31,
+    "documents_uploaded": 12,
+    "notes_added": 24,
+    "last_update": "2026-07-01T16:45:00Z"
+  },
+  {
+    "project_code": "P103",
+    "photos_uploaded": 58,
+    "documents_uploaded": 22,
+    "notes_added": 41,
+    "last_update": "2026-07-01T11:08:00Z"
+  },
+  {
+    "project_code": "P104",
+    "photos_uploaded": 19,
+    "documents_uploaded": 9,
+    "notes_added": 15,
+    "last_update": "2026-06-30T18:30:00Z"
+  },
+  {
+    "project_code": "P105",
+    "photos_uploaded": 36,
+    "documents_uploaded": 14,
+    "notes_added": 27,
+    "last_update": "2026-07-01T09:15:00Z"
+  },
+  {
+    "project_code": "P106",
+    "photos_uploaded": 4,
+    "documents_uploaded": 6,
+    "notes_added": 8,
+    "last_update": "2026-06-28T10:00:00Z"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "project_code": "P101",
+    "activities": [
+      {
+        "id": "ACT-P101-001",
+        "type": "photo",
+        "description": "Northbound pier cap concrete pour — Station 14+200",
+        "submitted_by": "Kevin Walsh",
+        "timestamp": "2026-07-01T14:22:00Z"
+      },
+      {
+        "id": "ACT-P101-002",
+        "type": "note",
+        "description": "Rebar inspection passed for Pier 7. Proceeding with formwork.",
+        "submitted_by": "Priya Nair",
+        "timestamp": "2026-07-01T10:15:00Z"
+      },
+      {
+        "id": "ACT-P101-003",
+        "type": "document",
+        "description": "Weekly safety briefing sign-off sheet uploaded",
+        "submitted_by": "Marcus Lee",
+        "timestamp": "2026-06-30T16:40:00Z"
+      },
+      {
+        "id": "ACT-P101-004",
+        "type": "photo",
+        "description": "Deck form alignment check before overnight pour",
+        "submitted_by": "Kevin Walsh",
+        "timestamp": "2026-06-29T19:05:00Z"
+      },
+      {
+        "id": "ACT-P101-005",
+        "type": "note",
+        "description": "Lane closure shifted to Stage 2 configuration effective 6 AM Monday.",
+        "submitted_by": "Sarah Mitchell",
+        "timestamp": "2026-06-28T08:30:00Z"
+      }
+    ]
+  },
+  {
+    "project_code": "P102",
+    "activities": [
+      {
+        "id": "ACT-P102-001",
+        "type": "photo",
+        "description": "Median excavation progress at Mile 8.3",
+        "submitted_by": "Tom Berger",
+        "timestamp": "2026-07-01T16:45:00Z"
+      },
+      {
+        "id": "ACT-P102-002",
+        "type": "note",
+        "description": "Utility conflict at Sta. 45+100 resolved. Resuming grading tomorrow.",
+        "submitted_by": "James Rodriguez",
+        "timestamp": "2026-07-01T13:20:00Z"
+      },
+      {
+        "id": "ACT-P102-003",
+        "type": "document",
+        "description": "Subgrade compaction test results — Lot 12",
+        "submitted_by": "Lisa Harmon",
+        "timestamp": "2026-06-30T11:00:00Z"
+      },
+      {
+        "id": "ACT-P102-004",
+        "type": "photo",
+        "description": "Temporary barrier placement along westbound shoulder",
+        "submitted_by": "Nina Patel",
+        "timestamp": "2026-06-29T15:30:00Z"
+      },
+      {
+        "id": "ACT-P102-005",
+        "type": "note",
+        "description": "Rain delay — 4 hours lost on 6/28. Schedule impact under review.",
+        "submitted_by": "Tom Berger",
+        "timestamp": "2026-06-28T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "project_code": "P103",
+    "activities": [
+      {
+        "id": "ACT-P103-001",
+        "type": "photo",
+        "description": "Ramp tie-in paving at Exit 249B",
+        "submitted_by": "Chris Dalton",
+        "timestamp": "2026-07-01T11:08:00Z"
+      },
+      {
+        "id": "ACT-P103-002",
+        "type": "document",
+        "description": "Asphalt core sample lab report — Section C",
+        "submitted_by": "Hannah Ortiz",
+        "timestamp": "2026-06-30T14:50:00Z"
+      },
+      {
+        "id": "ACT-P103-003",
+        "type": "note",
+        "description": "Night lane closure completed ahead of schedule. All lanes open by 5 AM.",
+        "submitted_by": "Emily Chen",
+        "timestamp": "2026-06-30T06:15:00Z"
+      },
+      {
+        "id": "ACT-P103-004",
+        "type": "photo",
+        "description": "Signal mast arm installation at Peachtree connector",
+        "submitted_by": "Yuki Tanaka",
+        "timestamp": "2026-06-29T12:40:00Z"
+      },
+      {
+        "id": "ACT-P103-005",
+        "type": "note",
+        "description": "Stakeholder walkthrough scheduled for July 8 at 10 AM.",
+        "submitted_by": "Robert Gaines",
+        "timestamp": "2026-06-27T09:00:00Z"
+      },
+      {
+        "id": "ACT-P103-006",
+        "type": "document",
+        "description": "Updated traffic control plan — Revision 4",
+        "submitted_by": "Robert Gaines",
+        "timestamp": "2026-06-26T16:20:00Z"
+      }
+    ]
+  },
+  {
+    "project_code": "P104",
+    "activities": [
+      {
+        "id": "ACT-P104-001",
+        "type": "photo",
+        "description": "Milling operation complete — MP 142 to MP 145",
+        "submitted_by": "Gregory Shaw",
+        "timestamp": "2026-06-30T18:30:00Z"
+      },
+      {
+        "id": "ACT-P104-002",
+        "type": "note",
+        "description": "Tack coat applied. Paving crew mobilizing for first lift tonight.",
+        "submitted_by": "Gregory Shaw",
+        "timestamp": "2026-06-30T14:00:00Z"
+      },
+      {
+        "id": "ACT-P104-003",
+        "type": "document",
+        "description": "Mix design approval — PG 76-22 surface course",
+        "submitted_by": "Rachel Kim",
+        "timestamp": "2026-06-29T10:30:00Z"
+      },
+      {
+        "id": "ACT-P104-004",
+        "type": "photo",
+        "description": "Shoulder grading and drainage swale restoration",
+        "submitted_by": "David Thompson",
+        "timestamp": "2026-06-28T11:45:00Z"
+      },
+      {
+        "id": "ACT-P104-005",
+        "type": "note",
+        "description": "Flagging crew added for weekend paving operations.",
+        "submitted_by": "David Thompson",
+        "timestamp": "2026-06-27T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "project_code": "P105",
+    "activities": [
+      {
+        "id": "ACT-P105-001",
+        "type": "photo",
+        "description": "Guardrail post installation — Outer loop Mile 22",
+        "submitted_by": "Daniel Ruiz",
+        "timestamp": "2026-07-01T09:15:00Z"
+      },
+      {
+        "id": "ACT-P105-002",
+        "type": "note",
+        "description": "Concrete barrier section removed and stockpiled for recycling.",
+        "submitted_by": "Ian Cooper",
+        "timestamp": "2026-06-30T15:20:00Z"
+      },
+      {
+        "id": "ACT-P105-003",
+        "type": "document",
+        "description": "Crash cushion replacement inspection checklist",
+        "submitted_by": "Angela Brooks",
+        "timestamp": "2026-06-30T11:10:00Z"
+      },
+      {
+        "id": "ACT-P105-004",
+        "type": "photo",
+        "description": "New MASH-compliant barrier alignment verification",
+        "submitted_by": "Daniel Ruiz",
+        "timestamp": "2026-06-29T08:50:00Z"
+      },
+      {
+        "id": "ACT-P105-005",
+        "type": "note",
+        "description": "Erosion control blankets reinstalled after storm event.",
+        "submitted_by": "Sophie Martin",
+        "timestamp": "2026-06-28T13:30:00Z"
+      }
+    ]
+  },
+  {
+    "project_code": "P106",
+    "activities": [
+      {
+        "id": "ACT-P106-001",
+        "type": "document",
+        "description": "Preliminary design package submitted for agency review",
+        "submitted_by": "Laura Bennett",
+        "timestamp": "2026-06-28T10:00:00Z"
+      },
+      {
+        "id": "ACT-P106-002",
+        "type": "note",
+        "description": "Public information meeting held. 42 attendees, 3 written comments received.",
+        "submitted_by": "Jason Wright",
+        "timestamp": "2026-06-25T19:00:00Z"
+      },
+      {
+        "id": "ACT-P106-003",
+        "type": "photo",
+        "description": "Existing interchange aerial survey reference shots",
+        "submitted_by": "Michael Okafor",
+        "timestamp": "2026-06-20T14:30:00Z"
+      },
+      {
+        "id": "ACT-P106-004",
+        "type": "note",
+        "description": "Geotechnical borings scheduled for week of July 7.",
+        "submitted_by": "Laura Bennett",
+        "timestamp": "2026-06-18T09:45:00Z"
+      }
+    ]
+  }
+]

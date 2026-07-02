@@ -1,0 +1,48 @@
+import type { DocumentItem } from '../services/api';
+
+interface Props {
+  documents: DocumentItem[];
+  loading: boolean;
+}
+
+function formatTime(ts: string | null): string {
+  if (!ts) return '';
+  return new Date(ts).toLocaleString();
+}
+
+function getDocUrl(filePath: string): string {
+  const parts = filePath.split('/storage/');
+  if (parts.length > 1) {
+    return `/storage/${parts[1]}`;
+  }
+  return filePath;
+}
+
+export default function DocumentsPanel({ documents, loading }: Props) {
+  return (
+    <div className="bg-white rounded-lg border border-gray-200 shadow-sm p-4">
+      <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-3">Documents</h3>
+      {loading ? (
+        <p className="text-sm text-gray-400">Loading...</p>
+      ) : documents.length === 0 ? (
+        <p className="text-sm text-gray-400">No documents yet. Send a document via WhatsApp.</p>
+      ) : (
+        <div className="space-y-2 max-h-64 overflow-y-auto">
+          {documents.map((doc) => (
+            <div key={doc.id} className="flex items-center justify-between border-b border-gray-100 pb-2 last:border-0">
+              <a
+                href={getDocUrl(doc.file_path)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-blue-600 hover:underline truncate"
+              >
+                {doc.filename}
+              </a>
+              <span className="text-xs text-gray-400 ml-2 shrink-0">{formatTime(doc.created_at)}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}

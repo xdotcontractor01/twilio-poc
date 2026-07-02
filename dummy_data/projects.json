@@ -1,0 +1,50 @@
+[
+  {
+    "project_code": "P101",
+    "project_name": "I-75 Bridge Expansion",
+    "project_manager": "Sarah Mitchell",
+    "contractor": "Summit Infrastructure Group",
+    "status": "In Progress",
+    "completion_percentage": 62
+  },
+  {
+    "project_code": "P102",
+    "project_name": "SR-400 Widening",
+    "project_manager": "James Rodriguez",
+    "contractor": "Peachtree Civil Contractors",
+    "status": "In Progress",
+    "completion_percentage": 48
+  },
+  {
+    "project_code": "P103",
+    "project_name": "Downtown Interchange Improvement",
+    "project_manager": "Emily Chen",
+    "contractor": "MetroLink Construction LLC",
+    "status": "In Progress",
+    "completion_percentage": 71
+  },
+  {
+    "project_code": "P104",
+    "project_name": "US-27 Resurfacing",
+    "project_manager": "David Thompson",
+    "contractor": "Southern Paving & Grading",
+    "status": "In Progress",
+    "completion_percentage": 35
+  },
+  {
+    "project_code": "P105",
+    "project_name": "I-285 Barrier Replacement",
+    "project_manager": "Angela Brooks",
+    "contractor": "Guardian Highway Systems",
+    "status": "In Progress",
+    "completion_percentage": 54
+  },
+  {
+    "project_code": "P106",
+    "project_name": "GA-316 Interchange Reconstruction",
+    "project_manager": "Michael Okafor",
+    "contractor": "Eastside Bridge & Road",
+    "status": "Planning",
+    "completion_percentage": 12
+  }
+]

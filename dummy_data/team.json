@@ -1,0 +1,170 @@
+[
+  {
+    "project_code": "P101",
+    "members": [
+      {
+        "name": "Sarah Mitchell",
+        "role": "Project Manager",
+        "phone": "+14045550101",
+        "email": "sarah.mitchell@xdot.demo"
+      },
+      {
+        "name": "Kevin Walsh",
+        "role": "Site Superintendent",
+        "phone": "+14045550102",
+        "email": "kevin.walsh@xdot.demo"
+      },
+      {
+        "name": "Priya Nair",
+        "role": "Structural Engineer",
+        "phone": "+14045550103",
+        "email": "priya.nair@xdot.demo"
+      },
+      {
+        "name": "Marcus Lee",
+        "role": "Safety Officer",
+        "phone": "+14045550104",
+        "email": "marcus.lee@xdot.demo"
+      }
+    ]
+  },
+  {
+    "project_code": "P102",
+    "members": [
+      {
+        "name": "James Rodriguez",
+        "role": "Project Manager",
+        "phone": "+14045550201",
+        "email": "james.rodriguez@xdot.demo"
+      },
+      {
+        "name": "Lisa Harmon",
+        "role": "Field Inspector",
+        "phone": "+14045550202",
+        "email": "lisa.harmon@xdot.demo"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Earthwork Foreman",
+        "phone": "+14045550203",
+        "email": "tom.berger@xdot.demo"
+      },
+      {
+        "name": "Nina Patel",
+        "role": "Traffic Control Lead",
+        "phone": "+14045550204",
+        "email": "nina.patel@xdot.demo"
+      }
+    ]
+  },
+  {
+    "project_code": "P103",
+    "members": [
+      {
+        "name": "Emily Chen",
+        "role": "Project Manager",
+        "phone": "+14045550301",
+        "email": "emily.chen@xdot.demo"
+      },
+      {
+        "name": "Robert Gaines",
+        "role": "Design Coordinator",
+        "phone": "+14045550302",
+        "email": "robert.gaines@xdot.demo"
+      },
+      {
+        "name": "Hannah Ortiz",
+        "role": "Materials Technician",
+        "phone": "+14045550303",
+        "email": "hannah.ortiz@xdot.demo"
+      },
+      {
+        "name": "Chris Dalton",
+        "role": "Night Shift Supervisor",
+        "phone": "+14045550304",
+        "email": "chris.dalton@xdot.demo"
+      },
+      {
+        "name": "Yuki Tanaka",
+        "role": "Survey Crew Chief",
+        "phone": "+14045550305",
+        "email": "yuki.tanaka@xdot.demo"
+      }
+    ]
+  },
+  {
+    "project_code": "P104",
+    "members": [
+      {
+        "name": "David Thompson",
+        "role": "Project Manager",
+        "phone": "+14045550401",
+        "email": "david.thompson@xdot.demo"
+      },
+      {
+        "name": "Rachel Kim",
+        "role": "QC Manager",
+        "phone": "+14045550402",
+        "email": "rachel.kim@xdot.demo"
+      },
+      {
+        "name": "Gregory Shaw",
+        "role": "Paving Superintendent",
+        "phone": "+14045550403",
+        "email": "gregory.shaw@xdot.demo"
+      }
+    ]
+  },
+  {
+    "project_code": "P105",
+    "members": [
+      {
+        "name": "Angela Brooks",
+        "role": "Project Manager",
+        "phone": "+14045550501",
+        "email": "angela.brooks@xdot.demo"
+      },
+      {
+        "name": "Daniel Ruiz",
+        "role": "Barrier Installation Lead",
+        "phone": "+14045550502",
+        "email": "daniel.ruiz@xdot.demo"
+      },
+      {
+        "name": "Sophie Martin",
+        "role": "Environmental Compliance",
+        "phone": "+14045550503",
+        "email": "sophie.martin@xdot.demo"
+      },
+      {
+        "name": "Ian Cooper",
+        "role": "Equipment Manager",
+        "phone": "+14045550504",
+        "email": "ian.cooper@xdot.demo"
+      }
+    ]
+  },
+  {
+    "project_code": "P106",
+    "members": [
+      {
+        "name": "Michael Okafor",
+        "role": "Project Manager",
+        "phone": "+14045550601",
+        "email": "michael.okafor@xdot.demo"
+      },
+      {
+        "name": "Laura Bennett",
+        "role": "Planning Engineer",
+        "phone": "+14045550602",
+        "email": "laura.bennett@xdot.demo"
+      },
+      {
+        "name": "Jason Wright",
+        "role": "Stakeholder Liaison",
+        "phone": "+14045550603",
+        "email": "jason.wright@xdot.demo"
+      }
+    ]
+  }
+]
