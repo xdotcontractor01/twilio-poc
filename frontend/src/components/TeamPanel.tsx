@@ -16,9 +16,12 @@ export default function TeamPanel({ team, loading }: Props) {
       ) : (
         <div className="space-y-2 max-h-64 overflow-y-auto">
           {team.map((member) => (
-            <div key={member.id} className="flex items-center justify-between border-b border-gray-100 pb-2 last:border-0">
-              <span className="text-sm text-gray-900">{member.name}</span>
-              <span className="text-xs text-gray-500">{member.role}</span>
+            <div
+              key={member.id}
+              className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-0.5 border-b border-gray-100 pb-2 last:border-0"
+            >
+              <span className="text-sm text-gray-900 break-words">{member.name}</span>
+              <span className="text-xs text-gray-500 sm:text-right">{member.role}</span>
             </div>
           ))}
         </div>

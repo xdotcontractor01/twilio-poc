@@ -20,7 +20,7 @@ export default function ImagesPanel({ images, loading }: Props) {
       ) : images.length === 0 ? (
         <p className="text-sm text-gray-400">No images yet. Send an image via WhatsApp.</p>
       ) : (
-        <div className="grid grid-cols-3 md:grid-cols-4 gap-2 max-h-64 overflow-y-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 max-h-64 overflow-y-auto">
           {images.map((img) => (
             <a
               key={img.id}

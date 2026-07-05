@@ -22,9 +22,9 @@ export default function NotesPanel({ notes, loading }: Props) {
         <div className="space-y-3 max-h-64 overflow-y-auto">
           {notes.map((note) => (
             <div key={note.id} className="border-b border-gray-100 pb-2 last:border-0">
-              <p className="text-sm text-gray-900">{note.message}</p>
-              <div className="flex gap-3 mt-1">
-                <span className="text-xs text-gray-500">{note.sender}</span>
+              <p className="text-sm text-gray-900 break-words">{note.message}</p>
+              <div className="flex flex-wrap gap-x-3 gap-y-0.5 mt-1">
+                <span className="text-xs text-gray-500 break-all">{note.sender}</span>
                 <span className="text-xs text-gray-400">{formatTime(note.created_at)}</span>
               </div>
             </div>

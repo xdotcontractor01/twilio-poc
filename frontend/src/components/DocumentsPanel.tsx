@@ -22,16 +22,19 @@ export default function DocumentsPanel({ documents, loading }: Props) {
       ) : (
         <div className="space-y-2 max-h-64 overflow-y-auto">
           {documents.map((doc) => (
-            <div key={doc.id} className="flex items-center justify-between border-b border-gray-100 pb-2 last:border-0">
+            <div
+              key={doc.id}
+              className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 border-b border-gray-100 pb-2 last:border-0"
+            >
               <a
                 href={getStorageUrl(doc.file_path)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-blue-600 hover:underline truncate"
+                className="text-sm text-blue-600 hover:underline break-all"
               >
                 {doc.filename}
               </a>
-              <span className="text-xs text-gray-400 ml-2 shrink-0">{formatTime(doc.created_at)}</span>
+              <span className="text-xs text-gray-400 sm:ml-2 shrink-0">{formatTime(doc.created_at)}</span>
             </div>
           ))}
         </div>
